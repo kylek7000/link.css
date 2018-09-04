@@ -1,0 +1,587 @@
+/*Links CSS*/
+/*Created By Kyle Kim*/
+/*Default Link*/
+.lnk{
+	background-color:#bfbfbf; 
+	color:black; 
+	text-decoration:none; 
+	font-weight:bold; 
+	border:none; 
+	padding: 0.9375em 1.5625em; 
+	display: inline-block;
+	text-align:center;
+}
+.lnk:hover{
+	background-color:#999999;
+}
+
+/*Sizes*/
+.s{padding: 0.3125em 10px;}
+.m{padding: 0.9375em 1.875em;}
+.l{padding: 1.25em 2.5em;}
+.xl{padding: 1.5625em 3.125em;}
+.xxl{padding: 1.875em 3.75em;}
+.xxxl{padding: 2.1875em 4.375em;}
+.full{
+	width: 100%;
+	text-align:center;
+}
+
+/*Border Radius*/
+.brd1{
+	border-radius: 50px;
+}
+.brd2{
+	border-radius: 30px;
+}
+.brd3{
+	border-radius: 20px;
+}
+.brd4{
+	border-radius: 10px;
+}
+.brd5{
+	border-radius: 5px;
+}
+.brd6{
+	border-radius: 2px;
+}
+.brd7{
+	border-radius: 1px;
+}
+
+
+/*fontstyle*/
+.nobold{font-weight:normal;}
+.italic{font-style:italic;}
+.underline{text-decoration:underline;}
+
+/*Hovers*/
+.uHover:hover{text-decoration:underline;}
+.iHover:hover{font-style:italic;}
+.bHover:hover{font-weight:bold;}
+
+/*Font Sizes*/
+.fnt1{
+	font-size: 175%;
+}
+.fnt2{
+	font-size: 150%;
+}
+.fnt3{
+	font-size: 140%;
+}
+.fnt4{
+	font-size: 130%;
+}
+.fnt5{
+	font-size: 120%;
+}
+.fnt6{
+	font-size: 100%;
+}
+.fnt7{
+	font-size: 75%;
+}
+.fnt8{
+	font-size: 50%;
+}
+
+/*Colors*/
+.lnkRed{
+	background-color:#ff4915;
+	color:white;
+}
+.lnkRed:hover{
+	background-color:#d23c11;
+}
+.lnkDarkred{
+	color:white;
+	background-color:#E12200;
+}
+.lnkDarkred:hover{
+	background-color:#AD1A00;
+}
+.lnkBloodorange{
+	background-color:#E85810;
+	color:white;
+}
+.lnkBloodorange:hover{
+	background-color:#B93F0E;
+}
+.lnkOrange{
+	background-color:#ff901a;
+	color:white;
+}
+.lnkOrange:hover{
+	background-color:#c26400;
+}
+.lnkAmber{
+	background-color:#FFB30F;
+	color:white;
+}
+.lnkAmber:hover{
+	background-color:#AD790A;
+}
+.lnkYellow{
+	background-color:#ffcf15;
+	color:white;
+}
+.lnkYellow:hover{
+	background-color:#cea716;	
+}
+.lnkGrass{
+	background-color:#8BD12C;
+	color:white;
+}
+.lnkGrass:hover{
+	background-color:#62941F;
+}
+.lnkLime{
+	background-color:#B8F357;
+	color:white;
+}
+.lnkLime:hover{
+	background-color:#7BA23A;
+}
+.lnkGreen{
+	background-color:#17d957;
+	color:white;
+}
+.lnkGreen:hover{
+	background-color:#13a342;	
+}
+.lnkDarkgreen{
+	background-color:#12760A;
+	color:white;
+}
+.lnkDarkgreen:hover{
+	background-color:#0B3E07;
+}
+.lnkCyan{
+	background-color:#16E4CB;
+	color:white;
+}
+.lnkCyan:hover{
+	background-color:#0F9F8E;
+}
+.lnkSky{
+	background-color:#22B2F0;
+	color:white;
+}
+.lnkSky:hover{
+	background-color:#1B89B9;	
+}
+.lnkBlue{
+	background-color:#1186E7;
+	color:white;
+}
+.lnkBlue:hover{
+	background-color:#0C4F86;
+}
+.lnkNavy{
+	background-color:#1532A6;
+	color:white;
+}
+.lnkNavy:hover{
+	background-color:#0C1B5B;
+}
+.lnkViolet{
+	background-color:#4B13D5;
+	color: white;
+}
+.lnkViolet:hover{
+	background-color:#270C6A;
+}
+.lnkPurple{
+	background-color:#8B40E9;
+	color:white;
+}
+.lnkPurple:hover{
+	background-color:#55288E;	
+}
+.lnkDarkpurple{
+	background-color:#90174A;
+	color:white;
+}
+.lnkDarkpurple:hover{
+	background-color:#3E0B21;
+	color:white;
+}
+.lnkMagenta{
+	background-color:#EB2564;
+	color:white;
+}
+.lnkMagenta:hover{
+	background-color:#A71846;	
+}
+.lnkWhite{
+	background-color:white;
+	color:black;
+}
+.lnkWhite:hover{
+	background-color:#B6B6B6;
+}
+.lnkGray{
+	background-color:#9B9B9B;
+	color:white;
+}
+.lnkGray:hover{
+	background-color:#545454;
+}
+.lnkBlack{
+	background-color:black;
+	color:white;
+}
+.lnkBlack:hover{
+	background-color:#3B3B3B;
+}
+
+
+/*Air Colors*/
+.airRed{
+	color:#ff4915;
+	background-color:transparent;
+	border: 1.5px solid #ff4915;
+}
+.airRed:hover{
+	background-color:#ff4915;
+	color:white;
+}
+.airDarkred{
+	background-color:transparent;
+	color:#E12200;
+	border: 1.5px solid #E12200;
+}
+.airDarkred:hover{
+	background-color:#E12200;
+	color:white;
+}
+.airBloodorange{
+	background-color:transparent;
+	color:#E85810;
+	border: 1.5px solid #E85810;
+}
+.airBloodorange:hover{
+	background-color:#E85810;
+	color:white
+}
+.airOrange{
+	background-color:transparent;
+	color:#ff901a;
+	border: 1.5px solid #ff901a;
+}
+.airOrange:hover{
+	background-color:#ff901a;
+	color:white;
+}
+.airAmber{
+	background-color:transparent;
+	color:#FFB30F;
+	border: 1.5px solid #FFB30F;
+}
+.airAmber:hover{
+	background-color:#FFB30F;
+	color:white;
+}
+.airYellow{
+	background-color:transparent;
+	color:#ffcf15;
+	border: 1.5px solid #ffcf15;
+}
+.airYellow:hover{
+	background-color:#ffcf15;
+	color:white;
+}
+.airGrass{
+	background-color:transparent;
+	color:#8BD12C;
+	border: 1.5px solid #8BD12C;
+}
+.airGrass:hover{
+	background-color:#8BD12C;
+	color:white;
+}
+.airLime{
+	background-color:transparent;
+	color:#B8F357;
+	border: 1.5px solid #B8F357;
+}
+.airLime:hover{
+	background-color:#B8F357;
+	color:white;
+}
+.airGreen{
+	background-color:transparent;
+	color:#17d957;
+	border: 1.5px solid #17d957;
+}
+.airGreen:hover{
+	background-color:#17d957;
+	color:white;	
+}
+.airDarkgreen{
+	background-color:transparent;
+	color:#12760A;
+	border: 1.5px solid #12760A;
+}
+.airDarkgreen:hover{
+	background-color:#12760A;
+	color:white;
+}
+.airCyan{
+	background-color:transparent;
+	color:#16E4CB;
+	border: 1.5px solid #16E4CB;
+}
+.airCyan:hover{
+	background-color:#16E4CB;
+	color:white;
+}
+.airSky{
+	background-color:transparent;
+	color:#22B2F0;
+	border: 1.5px solid #22B2F0;
+}
+.airSky:hover{
+	background-color:#22B2F0;
+	color:white;
+}
+.airBlue{
+	background-color:transparent;
+	color:#1186E7;
+	border: 1.5px solid #1186E7;
+}
+.airBlue:hover{
+	background-color:#1186E7;
+	color:white;
+}
+.airNavy{
+	background-color:transparent;
+	color:#1532A6;
+	border: 1.5px solid #1532A6;
+}
+.airNavy:hover{
+	background-color:#1532A6;
+	color:white;
+}
+.airViolet{
+	background-color:transparent;
+	color:#4B13D5;
+	border: 1.5px solid #4B13D5;
+}
+.airViolet:hover{
+	background-color:#4B13D5;
+	color: white;
+}
+.airPurple{
+	background-color:transparent;
+	color:#8B40E9;
+	border: 1.5px solid #8B40E9;
+}
+.airPurple:hover{
+	background-color:#8B40E9;
+	color:white;	
+}
+.airDarkpurple{
+	background-color:transparent;
+	color:#90174A;
+	border: 1.5px solid #90174A;
+}
+.airDarkpurple:hover{
+	background-color:#90174A;
+	color:white;
+}
+.airMagenta{
+	background-color:transparent;
+	color:#EB2564;
+	border: 1.5px solid #EB2564;
+}
+.airMagenta:hover{
+	background-color:#EB2564;
+	color:white;
+}
+.airWhite{
+	background-color:transparent;
+	color:white;
+	border: 1.5px solid white;
+}
+.airWhite:hover{
+	background-color:white;
+	color:black;
+}
+.airGray{
+	background-color:transparent;
+	color:#9B9B9B;
+	border: 1.5px solid #9B9B9B;
+}
+.airGray:hover{
+	background-color:#9B9B9B;
+	color:white;
+}
+.airBlack{
+	background-color:transparent;
+	color:black;
+	border: 1.5px solid black;
+}
+.airBlack:hover{
+	background-color:black;
+	color:white;
+}
+
+/*Text Link*/
+.txtLnk{
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+	display:inline-block;
+	padding:0;
+	border:none;
+	background-color:transparent;
+}
+/*Text Colors*/
+.txtRed{
+	color:#ff4915;
+}
+.txtDarkred{
+	color:#E12200;
+}
+.txtBloodorange{
+	color:#E85810;
+}
+.txtOrange{
+	color:#ff901a;
+}
+.txtAmber{
+	color:#FFB30F;
+}
+.txtYellow{
+	color:#ffcf15;
+}
+.txtGrass{
+	color:#8BD12C;
+}
+.txtLime{
+	color:#B8F357;
+}
+.txtGreen{
+	color:#17d957;
+}
+.txtDarkgreen{
+	color:#12760A;
+}
+.txtCyan{
+	color:#16E4CB;
+}
+.txtSky{
+	color:#22B2F0;
+}
+.txtBlue{
+	color:#1186E7;
+}
+.txtNavy{
+	color:#1532A6;
+}
+.txtViolet{
+	color:#4B13D5;
+}
+.txtPurple{
+	color:#8B40E9;
+}
+.txtDarkpurple{
+	color:#90174A;
+}
+.txtMagenta{
+	color:#EB2564;
+}
+.txtWhite{
+	color:white;
+}
+.txtGray{
+	color:#9B9B9B;
+}
+.txtBlack{
+	color:black;
+}
+
+
+
+/*Background Colors*/
+.brndRed{
+	background-color:#ff4915;
+}
+.brndDarkred{
+	background-color:#E12200;
+}
+.brndBloodorange{
+	background-color:#E85810;
+}
+.brndOrange{
+	background-color:#ff901a;
+}
+.brndAmber{
+	background-color:#FFB30F;
+}
+.brndYellow{
+	background-color:#ffcf15;
+}
+.brndGrass{
+	background-color:#8BD12C;
+}
+.brndLime{
+	background-color:#B8F357;
+}
+.brndGreen{
+	background-color:#17d957;
+}
+.brndDarkgreen{
+	background-color:#12760A;
+}
+.brndCyan{
+	background-color:#16E4CB;
+}
+.brndSky{
+	background-color:#22B2F0;
+}
+.brndBlue{
+	background-color:#1186E7;
+}
+.brndNavy{
+	background-color:#1532A6;
+}
+.brndViolet{
+	background-color:#4B13D5;
+}
+.brndPurple{
+	background-color:#8B40E9;
+}
+.brndDarkpurple{
+	background-color:#90174A;
+}
+.brndMagenta{
+	background-color:#EB2564;
+}
+.brndWhite{
+	background-color:white;
+}
+.brndGray{
+	background-color:#9B9B9B;
+}
+.brndBlack{
+	background-color:black;
+}
+
+
+/*Nav Bars*/
+.hDiv{
+	width:100%;
+	overflow:hidden;
+}
+.hLeft{
+	float:left;
+}
+.hRight{
+	float:right;
+}
+
+
